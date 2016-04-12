@@ -5,8 +5,10 @@ The code is written for usage on the RaspberryPi, but it should be easy to port 
 This library provides functionality to act with a SNx4HC595 chip (e.g. SN74HC595).
 Any chip of the series should work.
 
+SNx4HC595 data sheet: https://www.sparkfun.com/datasheets/IC/SN74HC595.pdf
+
 ## Requirements
-* wiringPi library
+* wiringPi library (http://wiringpi.com/)
 * C++ compiler
 
 ## Tested chips
@@ -26,7 +28,3 @@ hc595->Clear();
 ```
 See the example.cpp for a full example - the library is quite easy.
 
-## Links
-SNx4HC595 data sheet: https://www.sparkfun.com/datasheets/IC/SN74HC595.pdf
-
-More information about wiringPi: http://wiringpi.com/
