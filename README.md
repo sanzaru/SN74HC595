@@ -15,16 +15,18 @@ SNx4HC595 data sheet: https://www.sparkfun.com/datasheets/IC/SN74HC595.pdf
 * SN74HC595
 
 ## Installation
-Add the hc595 directory to your source files and include the hc595.h file.
+Copy the hc595 directory to your source files and include the hc595.h file.
 
 ## Usage example
 
 ```c++
-#include "hc595.h"
+#include "hc595/hc595.h"
 
-hc595 = new HC595(PIN_SDI, PIN_RCLK, PIN_SRCLK);
-hc595->Shift(1, 8, 1);
-hc595->Clear();
+int main(int argc, char **argv) {
+  hc595 = new HC595(PIN_SDI, PIN_RCLK, PIN_SRCLK);
+  hc595->Shift(1, 8, 1);
+  hc595->Clear();
+}
 ```
 See the example.cpp for a full example - the library is quite easy.
 
