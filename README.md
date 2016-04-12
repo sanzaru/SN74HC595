@@ -15,7 +15,7 @@ SNx4HC595 data sheet: https://www.sparkfun.com/datasheets/IC/SN74HC595.pdf
 * SN74HC595
 
 ## Installation
-Copy the hc595 directory to your source files and include the hc595.h file.
+Copy the hc595.h and hc595.cpp to your desired destination (most likely your header/source files) and include them.
 
 ## Usage example
 
