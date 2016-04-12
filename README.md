@@ -26,6 +26,8 @@ int main(int argc, char **argv) {
   hc595 = new HC595(PIN_SDI, PIN_RCLK, PIN_SRCLK);
   hc595->Shift(1, 8, 1);
   hc595->Clear();
+  
+  return 0;
 }
 ```
 See the example.cpp for a full example - the library is quite easy.
