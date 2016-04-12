@@ -5,10 +5,10 @@ The code is written for usage on the RaspberryPi, but it should be easy to port 
 This library provides functionality to act with a SNx4HC595 chip (e.g. SN74HC595).
 Any chip of the series should work.
 
-SNx4HC595 data sheet: https://www.sparkfun.com/datasheets/IC/SN74HC595.pdf
+SNx4HC595 data sheet: <a href="https://www.sparkfun.com/datasheets/IC/SN74HC595.pdf" target="_blank">https://www.sparkfun.com/datasheets/IC/SN74HC595.pdf</a>
 
 ## Requirements
-* wiringPi library (http://wiringpi.com/)
+* wiringPi library (<a href="http://wiringpi.com/" target="_blank">http://wiringpi.com/</a>)
 * C++ compiler
 
 ## Tested chips
