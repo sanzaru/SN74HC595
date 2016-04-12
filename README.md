@@ -23,7 +23,7 @@ Copy the hc595 directory to your source files and include the hc595.h file.
 #include "hc595/hc595.h"
 
 int main(int argc, char **argv) {
-  hc595 = new HC595(PIN_SDI, PIN_RCLK, PIN_SRCLK);
+  HC595 *hc595 = new HC595(PIN_SDI, PIN_RCLK, PIN_SRCLK);
   hc595->Shift(1, 8, 1);
   hc595->Clear();
   
