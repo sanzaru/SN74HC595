@@ -18,6 +18,8 @@
 #define PIN_RCLK  2
 #define PIN_SRCLK 3
 
+using namespace std;
+
 int main(int argc, char **argv) {
 	HC595 *hc595;
 	int i;
