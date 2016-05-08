@@ -15,7 +15,7 @@ SNx4HC595 data sheet: <a href="https://www.sparkfun.com/datasheets/IC/SN74HC595.
 * SN74HC595
 
 ## Installation
-Copy the hc595.h and hc595.cpp to your desired destination (most likely your header/source files) and include them.
+Copy the hc595.h and hc595.cpp to your desired destination (most likely your header/source file folder) and include them.
 
 ## Usage example
 
@@ -30,5 +30,5 @@ int main(int argc, char **argv) {
   return 0;
 }
 ```
-See the example.cpp for a full example - the library is quite easy.
+See the example.cpp for a full example - the library is quite easy to use.
 
